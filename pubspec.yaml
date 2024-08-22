@@ -36,6 +36,35 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
 
+  firebase_core:
+  firebase_messaging:
+  firebase_storage:
+  firebase_auth:
+  cloud_firestore:
+  permission_handler:
+  firebase_database:
+  flutter_local_notifications:
+  table_calendar:
+  flutter_svg:
+  intl:
+  get:
+  shared_preferences:
+  connectivity_plus:
+  get_storage:
+  country_calling_code_picker:
+  pin_code_fields:
+  package_info_plus:
+  image_picker:
+  url_launcher:
+  sign_in_with_apple:
+  logger:
+  google_sign_in:
+  fluentui_emoji_icon:
+  flutter_staggered_animations:
+  notification_center:
+  in_app_purchase:
+  flutter_inapp_purchase:
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
