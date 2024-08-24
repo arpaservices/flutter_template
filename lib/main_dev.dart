@@ -3,11 +3,16 @@ import 'dart:io';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_template/routes/app_pages.dart';
+import 'package:flutter_template/routes/app_routes.dart';
+import 'package:flutter_template/services/Firebase/firebase_config.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 import 'package:permission_handler/permission_handler.dart';
 
+import 'bindings/generic_binding.dart';
+import 'controllers/splash_controller.dart';
 import 'firebase_options.dart';
 import 'firebase_options_dev.dart';
 
@@ -80,7 +85,7 @@ class MyAppDev extends StatelessWidget with WidgetsBindingObserver {
         ),
         // initialBinding: AuthBinding(),
         // initialRoute: AppRoutes.HOME,
-        initialBinding: SplashBinding(),
+        initialBinding: GenericBinding(SplashController()),
         initialRoute: AppRoutes.SPLASH,
         // initialBinding: AuthBinding(),
         // initialRoute: AppRoutes.NOTIFICATION_PERMISSION,
