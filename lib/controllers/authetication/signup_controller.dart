@@ -1,9 +1,8 @@
 import 'dart:io';
-
-import 'package:absaly/network/DataSource.dart';
 import 'package:get/get.dart';
 
-import '../connection_manager_controller.dart';
+import '../../utils/network/DataSource.dart';
+
 
 
 class SignUpController extends GetxController {

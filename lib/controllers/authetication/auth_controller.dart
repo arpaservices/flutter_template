@@ -7,6 +7,9 @@ import 'package:flutter/foundation.dart';
 import 'package:get/get.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 
+import '../../routes/app_routes.dart';
+import '../../utils/network/DataSource.dart';
+
 
 
 class AuthController extends GetxController {

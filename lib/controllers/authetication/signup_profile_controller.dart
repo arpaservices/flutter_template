@@ -20,7 +20,7 @@ import '../../firebaseUtilities/firestore/constants/auditFields.dart';
 import '../../route/app_routes.dart';
 import '../../screens/app_constants.dart';
 import '../../utils/Firebase/firebase_config.dart';
-import '../../utils/Services/authentication.dart';
+import '../../utils/Services/firebase _authentication.dart';
 import '../../utils/Services/regexValidations.dart';
 import '../../utils/constants/app_enums.dart';
 import '../connection_manager_controller.dart';

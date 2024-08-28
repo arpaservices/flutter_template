@@ -1,16 +1,14 @@
 
-import 'package:absaly/data/repositories/user_repository.dart';
-import 'package:absaly/network/DataSource.dart';
-import 'package:absaly/route/app_routes.dart';
-import 'package:absaly/screens/app_constants.dart';
-import 'package:absaly/utils/Services/authentication.dart';
-import 'package:absaly/utils/Services/storage_utils.dart';
-import 'package:absaly/utils/supportUi/comman_dialog.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import '../connection_manager_controller.dart';
+import '../../routes/app_routes.dart';
+import '../../services/Firebase/firebase _authentication.dart';
+import '../../services/Firebase/firebase_authentication.dart';
+import '../../services/localStorage/storage_utils.dart';
+import '../../utils/core/app_strings.dart';
+import '../../utils/network/DataSource.dart';
 
 
 class SignUpMobileController extends GetxController {
