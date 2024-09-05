@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../utils/core/app_colors.dart';
+
 class CircleTextWrapper extends StatelessWidget {
   const CircleTextWrapper({
     Key? key,

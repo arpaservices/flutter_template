@@ -216,3 +216,31 @@ const termsAndPrivacy="Terms & Privacy Policy";
 
 
 
+//Dashboard
+const bottomNavigationTxt=["Overview","Journal","Add","Community","Settings"];
+const bottomNavUnSelectedImage=[
+  "assets/image/icons/home_unselected.svg",
+  "assets/image/icons/journal_unselected.svg",
+  "assets/image/icons/add_selected.svg",
+  // "assets/image/icons/history_unselected.svg",
+  "assets/image/icons/quiz_unselected.svg",
+  "assets/image/icons/settings_unselected.svg"];
+const bottomNavSelectedImage=[
+  "assets/image/icons/home_selected.svg",
+  "assets/image/icons/journal_selected.svg",
+  "assets/image/icons/add_selected.svg",
+  // "assets/image/icons/history_selected.svg",
+  "assets/image/icons/quiz_selected.svg",
+  "assets/image/icons/settings_selected.svg"];
+
+const adjustIcon = "assets/image/icons/adjust_icon.svg";
+const splashLogoIcon = "assets/image/splash_logo_sticker.png";
+const planningListIcon = "assets/image/icons/planning_list_icon.svg";
+const completedListIcon ="assets/image/icons/completed_list_icon.svg";
+const unselectedEmotion ="assets/image/icons/unselected_emotion_icon.svg";
+const upcomingEmotion ="assets/image/icons/upcoming_emotion_icon.svg";
+const bellIcon ="assets/image/icons/bell_icon.svg";
+
+
+
+

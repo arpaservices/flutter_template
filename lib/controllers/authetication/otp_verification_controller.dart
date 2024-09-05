@@ -15,7 +15,7 @@ import '../../services/Firebase/firebase _authentication.dart';
 import '../../services/localStorage/storage_utils.dart';
 import '../../utils/core/app_strings.dart';
 import '../../utils/network/DataSource.dart';
-import '../../utils/supportUI/comman_dialog.dart';
+import '../../widgets/comman_dialog.dart';
 
 
 

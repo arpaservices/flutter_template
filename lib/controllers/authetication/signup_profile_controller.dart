@@ -3,10 +3,6 @@
 import 'dart:developer';
 import 'dart:io';
 
-import 'package:absaly/data/repositories/user_repository.dart';
-import 'package:absaly/network/DataSource.dart';
-import 'package:absaly/utils/Services/storage_utils.dart';
-import 'package:absaly/utils/supportUi/comman_dialog.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
@@ -14,16 +10,20 @@ import 'package:image_picker/image_picker.dart';
 import 'package:logger/logger.dart';
 import 'package:permission_handler/permission_handler.dart';
 
-import '../../data/models/firebase/api_response.dart';
-import '../../data/models/firebase/user_model.dart';
-import '../../firebaseUtilities/firestore/constants/auditFields.dart';
-import '../../route/app_routes.dart';
-import '../../screens/app_constants.dart';
-import '../../utils/Firebase/firebase_config.dart';
-import '../../utils/Services/firebase _authentication.dart';
-import '../../utils/Services/regexValidations.dart';
-import '../../utils/constants/app_enums.dart';
-import '../connection_manager_controller.dart';
+import '../../data/repositories/user_repository.dart';
+import '../../models/firebase/user_model.dart';
+import '../../models/generic/api_response.dart';
+import '../../routes/app_routes.dart';
+import '../../services/Firebase/Firestore/auditFields.dart';
+import '../../services/Firebase/firebase _authentication.dart';
+import '../../services/Firebase/firebase_config.dart';
+import '../../services/extra/regexValidations.dart';
+import '../../services/localStorage/storage_utils.dart';
+import '../../utils/core/app_enums.dart';
+import '../../utils/core/app_strings.dart';
+import '../../utils/network/DataSource.dart';
+import '../../widgets/comman_dialog.dart';
+import '../connection/connection_manager_controller.dart';
 
 
 class SignUpProfileController extends GetxController {

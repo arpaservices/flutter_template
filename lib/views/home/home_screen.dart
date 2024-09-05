@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
@@ -5,6 +7,8 @@ import 'package:get/get.dart';
 
 import '../../bindings/generic_binding.dart';
 import '../../controllers/home_controller.dart';
+import '../../utils/core/app_colors.dart';
+import '../../utils/core/app_strings.dart';
 import '../../utils/supportUI/widget_function.dart';
 
 
@@ -48,7 +52,7 @@ class HomeScreen extends GetView<HomeController> {
                 onTap: (value) {
                   // controller.currentPage.value = value;
                   if (value == 2) {
-                    _showAddEntrySheet(context);
+                    log("modal sheet open");
                   }else{
                     controller.currentPage.value = value;
                   }

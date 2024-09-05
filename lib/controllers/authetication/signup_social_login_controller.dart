@@ -1,19 +1,19 @@
 
 import 'dart:developer';
 
-import 'package:absaly/network/DataSource.dart';
-import 'package:absaly/route/app_routes.dart';
-import 'package:absaly/utils/Services/firebase _authentication.dart';
-import 'package:absaly/utils/Services/storage_utils.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-import '../../data/models/firebase/api_response.dart';
-import '../../data/models/firebase/user_model.dart';
-import '../../screens/app_constants.dart';
-import '../../utils/supportUi/comman_dialog.dart';
-import '../connection_manager_controller.dart';
+import '../../models/firebase/user_model.dart';
+import '../../models/generic/api_response.dart';
+import '../../routes/app_routes.dart';
+import '../../services/Firebase/firebase _authentication.dart';
+import '../../services/localStorage/storage_utils.dart';
+import '../../utils/core/app_strings.dart';
+import '../../utils/network/DataSource.dart';
+import '../../widgets/comman_dialog.dart';
+import '../connection/connection_manager_controller.dart';
 
 
 class SignUpSocialLoginController extends GetxController {

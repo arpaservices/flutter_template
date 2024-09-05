@@ -2,6 +2,7 @@ import 'dart:developer';
 
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:flutter_template/data/repositories/user_repository.dart';
 import 'package:get/get.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:intl/intl.dart';
@@ -11,8 +12,9 @@ import 'package:sign_in_with_apple/sign_in_with_apple.dart';
 import '../../models/firebase/user_model.dart';
 import '../../models/generic/api_response.dart';
 import '../../utils/core/app_strings.dart';
-import '../../utils/supportUI/comman_dialog.dart';
+import '../../widgets/comman_dialog.dart';
 import '../localStorage/storage_utils.dart';
+import 'Firestore/auditFields.dart';
 
 class AuthServices {
   var userId;

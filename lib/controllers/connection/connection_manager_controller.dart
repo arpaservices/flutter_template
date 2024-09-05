@@ -21,13 +21,13 @@ class ConnectionManagerController extends GetxController {
     super.onInit();
     getConnectivityType();
     _streamSubscription =
-        _connectivity.onConnectivityChanged.listen(_updateState);
+        _connectivity.onConnectivityChanged.listen(_updateState as void Function(List<ConnectivityResult> event)?);  /// DEBUG: to be rechecked due to version changes
   }
 
   Future<void> getConnectivityType() async {
     late ConnectivityResult connectivityResult;
     try {
-      connectivityResult = await (_connectivity.checkConnectivity());
+      connectivityResult = (await (_connectivity.checkConnectivity())) as ConnectivityResult; /// DEBUG: to be rechecked due to version changes
     } on PlatformException catch (e) {
       if (kDebugMode) {
         print(e);

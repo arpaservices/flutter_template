@@ -5,10 +5,10 @@ import 'package:get/get.dart';
 
 import '../../routes/app_routes.dart';
 import '../../services/Firebase/firebase _authentication.dart';
-import '../../services/Firebase/firebase_authentication.dart';
 import '../../services/localStorage/storage_utils.dart';
 import '../../utils/core/app_strings.dart';
 import '../../utils/network/DataSource.dart';
+import '../connection/connection_manager_controller.dart';
 
 
 class SignUpMobileController extends GetxController {

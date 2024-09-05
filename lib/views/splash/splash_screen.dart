@@ -2,7 +2,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
+import '../../controllers/splash_controller.dart';
+import '../../utils/core/app_colors.dart';
 import '../../utils/device/deviceInfo.dart';
+import '../../utils/supportUI/widget_function.dart';
 
 class SplashScreen extends GetView<SplashController> {
   Widget build(BuildContext context) {
