@@ -1,0 +1,21 @@
+{
+  "app_info": {
+    "app_name": "Supper Star",
+    "product_id": "",
+    "package_name": "com.arpa.randomtalkz",
+    "default_language": "en",
+    "app_base_url": "https://demo.arpahub.in/randomTalkz/api/",
+    "licence_type": ""
+  },
+  "app_color": {
+    "primary_color": "#5b53bb",
+    "secondary_color": "#ee2257",
+    "main_color": "#111113"
+  },
+  "credentials": {
+    "svara_app_id": "edFsvIvMD4SmskgGuGu2",
+    "svara_secret_key": "7XATZvrIWBxQKQPJVv43",
+    "admob_android_pub_id": "ca-app-pub-3547026615546708~7601275880",
+    "admob_ios_pub_id": ""
+  }
+}
