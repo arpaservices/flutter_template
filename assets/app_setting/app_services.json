@@ -4,7 +4,7 @@
     "product_id": "",
     "package_name": "com.arpa.randomtalkz",
     "default_language": "en",
-    "app_base_url": "https://demo.arpahub.in/randomTalkz/api/",
+    "app_base_url": "base url",
     "licence_type": ""
   },
   "app_color": {
@@ -13,9 +13,9 @@
     "main_color": "#111113"
   },
   "credentials": {
-    "svara_app_id": "edFsvIvMD4SmskgGuGu2",
-    "svara_secret_key": "7XATZvrIWBxQKQPJVv43",
-    "admob_android_pub_id": "ca-app-pub-3547026615546708~7601275880",
-    "admob_ios_pub_id": ""
+    "svara_app_id": "svara_app_id",
+    "svara_secret_key": "svara_secret_key",
+    "admob_android_pub_id": "admob_android_pub_id",
+    "admob_ios_pub_id": "admob_ios_pub_id"
   }
 }
